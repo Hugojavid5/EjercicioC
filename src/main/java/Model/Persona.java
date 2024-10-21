@@ -74,14 +74,14 @@ public class Persona {
     /**
      * Compara este objeto Persona con otro para verificar si son iguales.
      * Dos objetos Persona se consideran iguales si tienen el mismo contenido de los atributos.
-     * @param object El objeto a comparar.
+     * @param o El objeto a comparar.
      * @return true si los objetos son iguales, false en caso contrario.
      */
     @Override
-    public boolean equals(Object object) {
-        if (this == object) return true;
-        if (object == null || getClass() != object.getClass()) return false;
-        Persona persona = (Persona) object;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Persona persona = (Persona) o;
         return edad == persona.edad && Objects.equals(nombre, persona.nombre) && Objects.equals(apellidos, persona.apellidos);
     }
 
