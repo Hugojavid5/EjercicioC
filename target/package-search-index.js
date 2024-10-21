@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"org.hugo.ejercicioc","l":"Model"},{"m":"org.hugo.ejercicioc","l":"org.hugo.ejercicioc"}];updateSearchResults();
