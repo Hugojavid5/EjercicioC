@@ -11,16 +11,16 @@ import javafx.scene.input.MouseEvent;
 public class PersonaController {
 
     @FXML
-    private TableColumn<?, ?> colApellidos;
+    private TableColumn<Persona, String> c_apellidos;
 
     @FXML
-    private TableColumn<?, ?> colEdad;
+    private TableColumn<Persona, Integer> c_edad;
 
     @FXML
-    private TableColumn<?, ?> colNombre;
+    private TableColumn<Persona, String> c_Nombre;
 
     @FXML
-    private TableView<?> tablaPersonas;
+    private TableView<Persona> tablaPersonas;
 
     @FXML
     private TextField txtApellidos;
